@@ -1,0 +1,280 @@
+
+header {
+    background-color: rgb(115, 7, 7);
+    height: 430px;
+    position: relative;
+}
+
+.background-pic {
+    height: 430px;
+    width: 1050px;
+    position: absolute;
+    left: 135px;
+    top: 0px;
+    z-index: 1;
+    opacity: 0.2;
+}
+
+.title-nav-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 135PX;
+    margin-right: 135PX;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    color:  rgb(255, 241, 241); 
+}
+
+.h1-p1 {
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.h1-p2 {
+    font-size: 19px;
+   font-style: bold;
+   margin-top: 0px;
+}
+
+nav {
+    color: rgb(255, 241, 241);
+    vertical-align: top;
+}
+
+a {
+    font-size: 20px;
+    margin-left: 30px;
+    font-style: bold;
+    color: rgb(255, 241, 241);
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.5;
+    transition-duration: 0.3s;
+}
+
+section {
+    margin-bottom: 0px;
+}
+.about-section {
+    height: 500px;
+    background-color: rgb(255, 241, 241); 
+}
+
+.about-div {
+    height: 500px;
+    background-color: rgb(255, 241, 241);
+    display: grid;
+    grid-template-columns: 360px 1fr;  
+    padding-top: 30px; 
+    padding-left: 135px;
+    padding-right: 135px;
+    column-gap: 15px;
+}
+
+.about-image-div {
+    height: 350px;
+    background-color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+
+}
+
+.about-image {
+    width: 100%;
+    height: 100%;
+}
+
+
+.about-article {
+    vertical-align: top;
+    height: 350px;
+}
+
+.about-h {
+    font-size: 32px;
+    color: rgb(115, 7, 7);
+    font-style: bold;
+}
+
+.about-p {
+    font-size: 26px;
+    color: rgb(115, 7, 7);
+    text-align: justify;
+}
+
+.read-more-a {
+    background-color: rgb(115, 7, 7);
+    color: rgb(255, 241, 241);
+    cursor: pointer;
+    width: 155px;
+    height: 55px;
+    font-size: 26px;
+    padding: 5px;
+}
+
+
+.Bestseller-section {
+    height: 500px;
+}
+
+.section-h {
+    font-size: 36px;
+    color: rgb(115, 7, 7);
+    font-style: bold;
+    padding-top: 30px;
+    text-align: center;
+    
+}
+
+.book-grid-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    padding-left: 135px;
+    padding-right: 135px;
+    padding-top: 0px;
+}
+
+.book-container-div {
+    background-color: rgb(255, 241, 241);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.book-image {
+    height: 295px;
+    width: 188px;
+    align-items: center;
+}
+
+.Newrelease-section {
+    height: 500px;
+    background-color: rgb(255, 241, 241);
+}
+
+.book-container-div-2 {
+    background-color:white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.newsletter-section {
+    height: 500px;
+}
+
+.newsletter-div {
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.newaletter-p {
+    font-size: 30px;
+    color: rgb(115, 7, 7);
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+.newsletter-textarea {
+    height: 68px;
+    width: 870px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(115, 7, 7);
+    padding-top: 0px;
+}
+
+.submit-button {
+    height: 75px;
+    width: 170px;
+    background-color: rgb(115, 7, 7);
+    color: rgb(255, 241, 241);
+    cursor: pointer;
+    vertical-align: top;
+    border: solid;
+    border-width: 2px;
+}
+
+
+footer {
+    height: 430px;
+    background-color: rgb(115, 7, 7);
+    margin: 0px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 280px;
+    padding-top: 150px;
+    padding-left: 550px;
+    margin: 0px;
+    margin-bottom: 150px;
+}
+
+.email-icon-div {
+    width: 50px;
+    height: 50px;
+}
+
+
+.icon-link {
+width: fit-content;
+width: fit-content;
+}
+
+.email-img {
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.email-img:hover {
+    cursor: pointer;
+    opacity: 0.5;
+    transition-duration: 0.5s;
+}
+
+.footer-info-flex {
+    display: flex;
+    flex-direction: row;
+    padding-left: 135px;
+    padding-right: 135px;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.info-flex-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+  
+}
+
+.powered-p {
+    color: white;
+    margin: 0px;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.macvans-p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px;
+}
